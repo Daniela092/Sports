@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sports</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #f1f1f1, #e0f7fa);
+      color: #333;
+    }
+
+    header {
+      background: #0288d1;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #0288d1;
+      margin-bottom: 10px;
+    }
+
+    p, li {
+      font-size: 1.1em;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .imagen {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0288d1;
+      color: white;
+      border-top: 4px solid #0277bd;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sports</h1>
+  <p>Movement, Health, and Fun</p>
+</header>
+
+<main>
+  <section>
+    <h2>What are sports?</h2>
+    <img class="imagen" src="https://images.unsplash.com/photo-1601987077224-d80e341f5b0c" alt="Sports">
+    <p>Sports are physical activities performed for recreation, competition, or health purposes. They involve movement, specific rules, and often teamwork.</p>
+  </section>
+
+  <section>
+    <h2>Importance for Health</h2>
+    <img class="imagen" src="https://images.unsplash.com/photo-1571019613914-85f342c55f07" alt="Health and exercise">
+    <p>Playing sports improves cardiovascular health, strengthens muscles, reduces stress and anxiety, and helps maintain a healthy weight. It also benefits mental and emotional well-being.</p>
+  </section>
+
+  <section>
+    <h2>Types of Sports</h2>
+    <img class="imagen" src="https://images.unsplash.com/photo-1547347298-4074fc3086f0" alt="Types of sports">
+    <ul>
+      <li><strong>Individual:</strong> athletics, swimming, cycling.</li>
+      <li><strong>Team:</strong> soccer, basketball, volleyball.</li>
+      <li><strong>Extreme:</strong> surfing, parkour, skydiving.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Advantages and Disadvantages</h2>
+    <img class="imagen" src="https://images.unsplash.com/photo-1508780709619-79562169bc64" alt="Sports benefits">
+    <p><strong>Advantages:</strong> improves physical and mental health, encourages socialization, teaches discipline, and promotes general well-being.</p>
+    <p><strong>Disadvantages:</strong> risk of injury, competitive pressure, and in some cases, high costs.</p>
+  </section>
+
+  <section>
+    <h2>Conclusion</h2>
+    <p>Practicing sports regularly provides many benefits. It not only enhances health but also develops social, emotional, and cognitive skills that enrich daily life.</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Your Name – Educational Page about Sports
+</footer>
+
+</body>
+</html>
